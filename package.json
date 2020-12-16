@@ -2,11 +2,7 @@
   "name": "@gorila/core",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/index.js",
-  "scripts": {
-    "start": "tsc -w",
-    "build": "tsc && npm link"
-  },
+  "main": "index.js",
   "author": "Rodrigo Cid",
   "license": "MIT",
   "dependencies": {
