@@ -1,16 +1,1 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.setModel = void 0;
-function setModel(model) {
-    return function (target, propertyKey) {
-        if (!target.hasOwnProperty('models')) {
-            target['models'] = [];
-        }
-        target['models'].push({
-            property: propertyKey,
-            class: model
-        });
-    };
-}
-exports.setModel = setModel;
-//# sourceMappingURL=model.js.map
+"use strict";function setModel(e,o){return function(s,t){o?s[t]=new e(o):(s.hasOwnProperty("models")||(s.models=[]),s.models.push({property:t,class:e}))}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.setModel=void 0,exports.setModel=setModel;

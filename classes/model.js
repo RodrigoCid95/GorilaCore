@@ -1,18 +1,1 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Model = void 0;
-var Model = (function () {
-    function Model(lm) {
-        var _this = this;
-        this.lm = lm;
-        if (this.libs) {
-            this.libs.forEach(function (lib) {
-                _this['__proto__'][lib.property] = _this.lm.getLibrary(lib.nameLibrary);
-            });
-            delete this.libs;
-        }
-    }
-    return Model;
-}());
-exports.Model = Model;
-//# sourceMappingURL=model.js.map
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Model=void 0;var Model=function(e){var t=this;this.lm=e,this.libs&&(this.libs.forEach((function(e){t.__proto__[e.property]=t.lm.getLibrary(e.nameLibrary)})),delete this.libs)};exports.Model=Model;

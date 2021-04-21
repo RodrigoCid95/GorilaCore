@@ -1,14 +1,1 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.LoaderConfig = void 0;
-var LoaderConfig = (function () {
-    function LoaderConfig(profiles) {
-        this.profiles = profiles;
-    }
-    LoaderConfig.prototype.getConfig = function (nameConfig) {
-        return this.profiles[nameConfig];
-    };
-    return LoaderConfig;
-}());
-exports.LoaderConfig = LoaderConfig;
-//# sourceMappingURL=configLoader.js.map
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ConfigLoader=void 0;var ConfigLoader=function(){function o(o){this.profiles=o}return o.prototype.getConfig=function(o){return this.profiles[o]},o}();exports.ConfigLoader=ConfigLoader;

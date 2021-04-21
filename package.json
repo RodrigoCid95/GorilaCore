@@ -1,5 +1,5 @@
 {
-  "name": "@gorila/core",
+  "name": "gorila-core",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,5 @@
   "license": "MIT",
   "dependencies": {
     "tslib": "^2.0.3"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.8",
-    "@types/node": "^14.11.10"
   }
 }
